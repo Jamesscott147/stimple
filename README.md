@@ -1,2 +1,2 @@
 # stimple
-[stimple-website](index.html)
+[stimple-website](https://jamesscott147.github.io/stimple/index.html)
