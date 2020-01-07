@@ -1,0 +1,331 @@
+/* --- hard reset ---*/
+
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+/* --- body ---*/ 
+
+html, body{
+    scroll-behavior:smooth;
+}
+
+/*--- nav ---*/
+
+nav {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content:flex-end;
+    height:60px;
+    background-color: white;
+    align-content: center;
+   
+}
+
+nav img {
+    float: left;
+    margin-left: 50px;
+}
+
+nav ul {
+    
+    display: inline-block;
+    float: right;
+        background-color: white;
+
+}
+
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-right: 30px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: ease-out,0.2s;
+    opacity: 0.6;
+}
+
+nav a:hover {
+    font-family: 'roboto', sans-serif;
+    transition: ease-in, 0.2s;
+    opacity: 1;
+}
+
+
+/* ---landing ---*/
+#landing {
+    background-image:url(images/landingimage.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+#landing h1 {
+    font-family: 'red hat display', sans-serif;
+    font-size: 3.5em;
+    color: white;
+}
+
+.landing_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+/* --- whatis ---*/
+#whatis {
+    background-image: url(images/whatis_background.png);
+    background-size: cover;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height:auto;
+    padding: 200px 150px;
+   
+}
+
+#whatis h2{
+    font-family: 'red hat display', sans-serif;
+}
+
+#whatis p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.1em;
+    margin-top:160px ;
+    padding-right: 0px;
+}
+
+#whatis img {
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+    
+}
+
+
+.whatis_content {
+    grid-column: 2/-1;
+    margin-left: 50px;
+}
+
+.whatis_image {
+    grid-column: 1/2;
+}
+
+
+/* --- whatwill ---*/
+#whatwill {
+    background-color:;
+    height:auto;
+}
+
+.whatwill {
+    background-image: url(images/whatwill_background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 9rem;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 2rem;
+    background-color:white;
+    
+
+}
+
+.whatwill h2{
+    display: grid;
+    font-family: 'red hat display',sans-serif;
+   grid-column:1/3; 
+}
+
+.card {
+    background-color:white;
+    height:500px;
+    width:100%;
+    align-content: center;
+    margin:0px 0px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 0px 30px 60px 30px;
+    text-align: center;
+}
+
+.container h4 {
+    font-family: 'red hat display', sans-serif;
+}
+
+.container p {
+    font-family: 'roboto', sans-serif;
+}
+
+.tools {
+    grid-column: 1/2;
+}
+
+.exercise {
+    grid-column: 2/3;
+}
+
+.history {
+    grid-column: 3/4;
+}
+/* --- download ---*/
+
+#download {
+    background-image: url(images/download_image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+   display: grid;
+    grid-template-columns: 50% 50%;
+    height:auto;
+    padding: 200px 100px;
+   
+}
+
+#download h2{
+    font-family: 'red hat display', sans-serif;
+}
+
+#download p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.1em;
+    margin-top:20px ;
+    padding-right: 50px;
+}
+
+#download img {
+    border-radius: 1%;
+   
+    
+}
+
+
+.download_content {
+    grid-column: 2/-1;
+    margin-left: 50px;
+}
+
+.download_image {
+    grid-column: 1/2;
+}
+
+#download button {
+    border-style: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    color:white;
+    background-color: black;
+    width: auto;
+    margin-top:80px;
+    border-radius:50px;
+    padding: 20px 30px;
+    font-size: 1rem;
+    transition: ease-out, 0.2s;
+   
+}
+
+#download button:hover{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color:white;
+    color: black;
+    transition: ease-in, 0.2s; 
+}
+
+/* --- footer ---*/
+footer {
+    padding: 200px;
+    padding-bottom: 100px;
+    background-color: black;
+    height: auto;
+}
+
+
+
+
+footer p {
+    
+    margin-top: 200px;
+    padding-right: 80px;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem
+}
+
+footer h2 {
+    color: white;
+    font-family: 'red hat display', sans-serif;
+   
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+
+.about_image {
+    display: grid;
+    grid-column: 1/2;
+}
+
+.about_image img {
+    margin: auto;
+   
+}
+
+.about_info {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.about_media {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_media ul {
+    display:flex;
+}
+
+.about_media ul li {
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.media_title {
+    font-family: 'red hat display', sans-serif;
+}
+
+.about_media a{
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    transition: ease-out, 0.3s;
+}
+
+.about_media a:hover {
+    
+    font-size: 1.3em;
+    transition: ease-in, 0.3s;
+}
